@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		15D3FB43A1B2E969DE49858D /* libPods-ViewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3541088E7BF53199BC07C430 /* libPods-ViewTest.a */; };
 		C9566CBB24EA62A90024163E /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9566CBA24EA62A90024163E /* BasicViewController.m */; };
+		C9566CBE24EA691C0024163E /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9566CBD24EA691C0024163E /* FirstTableViewCell.m */; };
+		C9566CC124EA75850024163E /* UIImageView+CustomCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9566CC024EA75850024163E /* UIImageView+CustomCorner.m */; };
 		C95F412A24E67733006FC555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95F412924E67733006FC555 /* AppDelegate.m */; };
 		C95F413024E67733006FC555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95F412F24E67733006FC555 /* ViewController.m */; };
 		C95F413324E67733006FC555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95F413124E67733006FC555 /* Main.storyboard */; };
@@ -41,6 +43,10 @@
 		61AC9F85CFCB90ECBF96BF20 /* Pods-ViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewTest.debug.xcconfig"; path = "Target Support Files/Pods-ViewTest/Pods-ViewTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C9566CB924EA62A90024163E /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		C9566CBA24EA62A90024163E /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		C9566CBC24EA691C0024163E /* FirstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		C9566CBD24EA691C0024163E /* FirstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		C9566CBF24EA75850024163E /* UIImageView+CustomCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CustomCorner.h"; sourceTree = "<group>"; };
+		C9566CC024EA75850024163E /* UIImageView+CustomCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CustomCorner.m"; sourceTree = "<group>"; };
 		C95F412524E67733006FC555 /* ViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95F412824E67733006FC555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C95F412924E67733006FC555 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -139,6 +145,10 @@
 				C95F413A24E6773A006FC555 /* main.m */,
 				C9566CB924EA62A90024163E /* BasicViewController.h */,
 				C9566CBA24EA62A90024163E /* BasicViewController.m */,
+				C9566CBC24EA691C0024163E /* FirstTableViewCell.h */,
+				C9566CBD24EA691C0024163E /* FirstTableViewCell.m */,
+				C9566CBF24EA75850024163E /* UIImageView+CustomCorner.h */,
+				C9566CC024EA75850024163E /* UIImageView+CustomCorner.m */,
 			);
 			path = ViewTest;
 			sourceTree = "<group>";
@@ -319,6 +329,8 @@
 			files = (
 				C95F413024E67733006FC555 /* ViewController.m in Sources */,
 				C9566CBB24EA62A90024163E /* BasicViewController.m in Sources */,
+				C9566CC124EA75850024163E /* UIImageView+CustomCorner.m in Sources */,
+				C9566CBE24EA691C0024163E /* FirstTableViewCell.m in Sources */,
 				C95F412A24E67733006FC555 /* AppDelegate.m in Sources */,
 				C95F413B24E6773A006FC555 /* main.m in Sources */,
 			);
